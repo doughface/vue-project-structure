@@ -1,0 +1,108 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #303133;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.tc {
+  text-align: center
+}
+
+.tl {
+  text-align: left
+}
+
+.tr {
+  text-align: right
+}
+
+.flex {
+  display: flex
+}
+
+.f1 {
+  flex: 1
+}
+
+.fw {
+  flex-wrap: wrap
+}
+
+.ac {
+  display: flex;
+  align-items: center;
+}
+
+.as {
+  display: flex;
+  align-items: flex-start
+}
+
+.ae {
+  display: flex;
+  align-items: flex-end
+}
+
+.jc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ja {
+  display: flex;
+  justify-content: space-around
+}
+
+.jb {
+  display: flex;
+  justify-content: space-between
+}
+
+.js {
+  display: flex;
+  justify-content: flex-start
+}
+
+.je {
+  display: flex;
+  justify-content: flex-end
+}
+
+.tf1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  word-break: break-all;
+  /* word-wrap: break-word */
+}
+
+.tf2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  word-break: break-all;
+  /* word-wrap: break-word */
+}
+
+.tf3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  word-break: break-all;
+  /* word-wrap: break-word */
+}
+
+.pointer {
+  cursor: pointer;
+}
