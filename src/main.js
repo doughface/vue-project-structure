@@ -4,6 +4,7 @@ import router from './router' //路由
 import store from './store' //vuex
 import './filters' //全局过滤器
 import './directives' //全局指令
+import './prototype' //全局拓展原型方法
 import './components' //全局组件
 import './lib' //第三方插件库
 import './assets/app.css' //通用css
