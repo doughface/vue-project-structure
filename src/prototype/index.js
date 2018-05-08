@@ -5,6 +5,6 @@ docs.keys().forEach(item => {
   let docsItem = docs(item).default
   let fileName = item.replace('./','').replace('.js','');
   if (fileName.toLowerCase() !== 'index') {
-    Vue.filter(fileName, docsItem)
+    Vue.prototype[fileName] = docsItem
   }
 })
